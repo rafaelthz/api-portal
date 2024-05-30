@@ -5,7 +5,10 @@ import { AdminPortal } from "@/pages/admin-portal";
 export default function Home() {
   return (
     <Layout>
+      {/* PORTAL DE APIS */}
       <Portal />
+
+      {/* PORTAL DE ADMIN - Tirar do comentário para visualizar*/}
       {/* <AdminPortal /> */}
     </Layout>
   );
